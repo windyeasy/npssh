@@ -1,0 +1,24 @@
+{
+  "name": "npssh",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "author": "windyeasy",
+  "license": "MIT",
+  "homepage": "git+https://github.com/windyeasy/npssh#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windyeasy/npssh.git"
+  },
+  "bugs": {
+    "url": "https://github.com/windyeasy/npssh/issues"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "dependencies": {
+    "vitest": "^1.6.0"
+  }
+}
