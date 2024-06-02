@@ -15,10 +15,12 @@
   },
   "main": "./src/index.js",
   "scripts": {
+    "dev": "node ./src/index.js",
     "test": "vitest"
   },
   "keywords": [],
   "dependencies": {
+    "node-ssh": "^13.2.0",
     "vitest": "^1.6.0"
   }
 }
