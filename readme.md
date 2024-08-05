@@ -11,7 +11,7 @@ pnpm add npssh -D
 
 And create `.npssh.cjs` in your project root:
 ```js
-module.export = {
+module.exports = {
   host: "localhost",
   username: "root",
   password: "123456", // or privateKeyPath: "/path/to/private/key"
