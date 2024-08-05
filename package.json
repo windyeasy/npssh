@@ -21,7 +21,7 @@
     "dev": "node ./src/index.js",
     "test": "vitest"
   },
-  "keywords": [],
+  "keywords": ["ssh", "push"],
   "dependencies": {
     "js-yaml": "^4.1.0",
     "node-ssh": "^13.2.0",
