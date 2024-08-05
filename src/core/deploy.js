@@ -1,6 +1,6 @@
 import path from "path";
-import { resolveAbsolutePath } from "./utils/path-utils.js";
-import { sshConnect } from "./utils/ssh-connect.js";
+import { resolveAbsolutePath } from "../utils/path-utils.js";
+import { sshConnect } from "../utils/ssh-connect.js";
 
 export async function deploy(config){
   const {from, to, ...options} = config

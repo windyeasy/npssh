@@ -2,7 +2,7 @@
   "name": "npssh",
   "type": "module",
   "version": "0.0.1",
-  "description": "",
+  "description": "A node library that pushes files the remote server via the ssh.",
   "author": "windyeasy",
   "license": "MIT",
   "homepage": "git+https://github.com/windyeasy/npssh#readme",
@@ -13,6 +13,9 @@
   "bugs": {
     "url": "https://github.com/windyeasy/npssh/issues"
   },
+  "bin": {
+    "npssh": "./src/index.js"
+  },
   "main": "./src/index.js",
   "scripts": {
     "dev": "node ./src/index.js",
@@ -20,6 +23,7 @@
   },
   "keywords": [],
   "dependencies": {
+    "js-yaml": "^4.1.0",
     "node-ssh": "^13.2.0",
     "vitest": "^1.6.0"
   }
