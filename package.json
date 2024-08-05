@@ -1,7 +1,7 @@
 {
   "name": "npssh",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A node library that pushes files the remote server via the ssh.",
   "author": "windyeasy",
   "license": "MIT",
@@ -21,7 +21,10 @@
     "dev": "node ./src/index.js",
     "test": "vitest"
   },
-  "keywords": ["ssh", "push"],
+  "keywords": [
+    "ssh",
+    "push"
+  ],
   "dependencies": {
     "js-yaml": "^4.1.0",
     "node-ssh": "^13.2.0",
