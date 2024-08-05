@@ -20,8 +20,6 @@ describe('path-utils', () => {
     it('should return absolute path with absolute path', () => {
       expect(resolveAbsolutePath(absolutePath)).toBe(absolutePath)
     })
-  })
-  describe('resolveAbsolutePath', () => {
     it('should throw error with invalid path', () => {
       expect(() => resolveAbsolutePath('./invalid')).toThrowError('The specified path does not exist:')
     })
