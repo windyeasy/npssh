@@ -17,7 +17,7 @@ module.exports = {
   password: "123456", // or privateKeyPath: "/path/to/private/key"
   from: "./dist",
   to: "/root/dist",
-  isDeleteRemoteFiles: true, // default: false 
+  isDeleteRemoteFiles: true, // Whether to delete all the files in the remote folder. default value: false 
 }
 ```
 
