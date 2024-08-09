@@ -9,7 +9,7 @@
 pnpm add npssh -D
 ```
 
-And create `.npssh.cjs` in your project root:
+And create `.npssh.cjs | .npssh.json | .npssh.yml` in your project root:
 ```js
 module.exports = {
   host: "localhost",
@@ -20,6 +20,7 @@ module.exports = {
   isDeleteRemoteFiles: true, // Whether to delete all the files in the remote folder. default value: false 
 }
 ```
+- if you want protect your's private information, you need to add `.npssh` to `.gitignore`.
 
 Add script for package.json:
 
