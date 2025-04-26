@@ -1,9 +1,5 @@
-#!/usr/bin/env node
-import { deploy } from "./core/deploy.js";
-import { parseConfig } from "./utils/parse-config.js";
+import {deploy} from "./core/deploy.js"
 
-async function main(){
-  const config = await parseConfig()
-  deploy(config)
+export default {
+  deploy,
 }
-main()

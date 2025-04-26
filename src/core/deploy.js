@@ -20,6 +20,9 @@ export async function deleteDirectoryBySsh(ssh, path){
 /**
  * Deploy files to remote server
  * @param {object} config 
+ * @param {string} config.host 
+ * @param {string} config.username 
+ * @param {boolean} config.password 
  * @param {string} config.from 
  * @param {string} config.to 
  * @param {boolean} config.isDeleteRemoteFiles 

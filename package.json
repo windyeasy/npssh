@@ -14,7 +14,7 @@
     "url": "https://github.com/windyeasy/npssh/issues"
   },
   "bin": {
-    "npssh": "./src/index.js"
+    "npssh": "./bin/cli.js"
   },
   "main": "./src/index.js",
   "scripts": {
@@ -26,6 +26,7 @@
     "push"
   ],
   "dependencies": {
+    "commander": "^13.1.0",
     "js-yaml": "^4.1.0",
     "node-ssh": "^13.2.0",
     "vitest": "^1.6.0"
