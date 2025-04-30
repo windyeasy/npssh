@@ -4,7 +4,7 @@ import { requireJson } from '../utils/require-files.js'
 export function helpOpts() {
 
   // 1. show version
-  const packJson = requireJson("./package.json");
+  const packJson = requireJson("../../package.json");
   const version = packJson.version;
   program
     .name(packJson.name)
