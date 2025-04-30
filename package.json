@@ -1,7 +1,7 @@
 {
   "name": "npssh",
   "type": "module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node library that pushes files the remote server via the ssh.",
   "author": "windyeasy",
   "license": "MIT",
